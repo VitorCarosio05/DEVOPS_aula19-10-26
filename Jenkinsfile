@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'node'
+    }
+
     parameters {
         choice(
             name: 'ATRASO_PUBLICACAO',
