@@ -1,6 +1,6 @@
 {
   "name": "portal-resultados-ci",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "validate:data": "node src/validateCandidates.js data/candidatos.json",
     "test": "node test/validateCandidates.test.js",
